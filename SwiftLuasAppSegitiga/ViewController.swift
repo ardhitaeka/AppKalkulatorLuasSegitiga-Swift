@@ -12,19 +12,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var txtTinggi: UITextField!
     
-    @IBAction func btnHasil(_ sender: UIButton) {
+    @IBAction func btnHitung(_ sender: UIButton) {
     
         let alas = txtAlas.text!
-                let tinggi = txtTinggi.text!
+        let tinggi = txtTinggi.text!
 
-                let floatAlas = Float(alas)!
-                let floatTinggi = Float(tinggi)!
+        let floatAlas = Float(alas)!
+        let floatTinggi = Float(tinggi)!
 
-                let hasil = 0.5 * floatAlas * floatTinggi
+        let hasil = 0.5 * floatAlas * floatTinggi
 
-                txtHasil.text = String(hasil)
+        txtHasil.text = String(hasil)
 
-            }
+    }
         
     @IBOutlet weak var txtHasil: UILabel!    
     
