@@ -2,8 +2,7 @@
 //  AppDelegate.swift
 //  SwiftLuasAppSegitiga
 //
-//  Created by Adam Permana on 11/05/23.
-//
+
 
 import UIKit
 
